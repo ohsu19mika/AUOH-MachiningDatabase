@@ -4,10 +4,7 @@ const Schema = mongoose.Schema;
 const schema = new Schema({
     tool_name: {
         type: String, 
-        required: true, 
-        index: {
-            unique: true
-        }
+        required: true
     },
     material:{
         type: String,
